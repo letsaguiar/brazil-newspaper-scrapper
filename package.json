@@ -4,7 +4,7 @@
   "description": "A web scraper that has the main Brazilian newspapers available for research, data analysis and tech projects creation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "tsc --build"
   },
   "keywords": [],
   "author": "Letícia Aguiar",
