@@ -10,6 +10,12 @@
   "author": "Letícia Aguiar",
   "license": "ISC",
   "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.45.1",
+    "@typescript-eslint/parser": "^5.45.1",
+    "eslint": "^8.29.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "prettier": "^2.8.0",
     "typescript": "^4.9.3"
   },
   "dependencies": {
