@@ -1,0 +1,15 @@
+{
+  "name": "brazil-newspaper-scrapper",
+  "version": "1.0.0",
+  "description": "A web scraper that has the main Brazilian newspapers available for research, data analysis and tech projects creation",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Letícia Aguiar",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
