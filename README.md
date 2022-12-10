@@ -15,6 +15,14 @@ major large and medium-sized newspapers available online.
 - [ ]  Get a large amount of data using pagination tools
 - [ ]  Export an extraction to pdf, xml and other formats
 - [ ]  Choose which information you want to extract
+
+## Available Newspapers
+
+- [ ]  Folha de São Paulo
+- [ ]  Estadão
+- [ ]  g1
+- [ ]  Valor Econômico
+
 ## Contributing
 
 If you have found a bug or have any suggestions for improvement, 
