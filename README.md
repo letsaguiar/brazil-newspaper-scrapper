@@ -19,7 +19,7 @@ major large and medium-sized newspapers available online.
 ## Available Newspapers
 
 - [ ]  Folha de São Paulo
-- [ ]  Estadão
+- [x]  Estadão
 - [ ]  g1
 - [ ]  Valor Econômico
 
