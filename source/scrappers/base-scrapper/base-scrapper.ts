@@ -7,7 +7,7 @@ import { Scrapper } from './base-scrapper.interface';
 export abstract class BaseScrapper implements Scrapper {
   protected browser: Browser;
   protected page: Page;
-  protected url: string;
+  public url: string;
 
   protected async initBrowser(): Promise<void> {
     if (this.browser) {
@@ -26,7 +26,7 @@ export abstract class BaseScrapper implements Scrapper {
     this.page = null;
   }
 
-  public searchNews(searchTerm: string): Promise<void> {
+  public searchNews(text: string): Promise<void> {
     throw new Error('Method not implemented.');
   }
 
