@@ -4,22 +4,26 @@
   "description": "A web scraper that has the main Brazilian newspapers available for research, data analysis and tech projects creation",
   "main": "index.js",
   "scripts": {
-    "build": "tsc --build"
+    "build": "tsc --build",
+    "test": "jest --detectOpenHandles"
   },
   "keywords": [],
   "author": "Letícia Aguiar",
   "license": "ISC",
   "devDependencies": {
+    "@jest/globals": "^29.3.1",
     "@typescript-eslint/eslint-plugin": "^5.45.1",
     "@typescript-eslint/parser": "^5.45.1",
+    "class-validator": "^0.13.2",
     "eslint": "^8.29.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-prettier": "^4.2.1",
+    "jest": "^29.3.1",
     "prettier": "2.8.0",
+    "ts-jest": "^29.0.3",
     "typescript": "^4.9.3"
   },
   "dependencies": {
-    "class-validator": "^0.13.2",
     "puppeteer": "^19.3.0"
   }
 }
