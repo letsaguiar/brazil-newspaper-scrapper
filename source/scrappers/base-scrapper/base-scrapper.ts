@@ -16,7 +16,7 @@ export abstract class BaseScrapper implements Scrapper {
 
     this.browser = await puppeteer.launch({ headless: false });
     this.page = await this.browser.newPage();
-    await this.page.goto(this.url);
+    await this.page.goto(this.url, { waitUntil: 'networkidle0' });
   }
 
   protected async closeBrowser(): Promise<void> {

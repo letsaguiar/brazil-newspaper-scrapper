@@ -18,7 +18,7 @@ export function UrlSearch(searchUrl: string) {
         await this.initBrowser();
         const searchUrl = this.buildSearchUrl(text);
 
-        await this.page.goto(searchUrl);
+        await this.page.goto(searchUrl, { waitUntil: 'networkidle2' });
       }
     };
   };
